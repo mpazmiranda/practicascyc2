@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./act6.css">
+</head>
+<body>
+    <div id="elemento" style="margin-bottom: 20px;">Hola!</div>
+    <button id="boton">Alternar visibilidad</button>
+
+    <script>
+    var elementoOculto = document.getElementById('elemento');
+    var botonElemento = document.getElementById('boton');
+
+     botonElemento.addEventListener('click', function() {
+     elemento.classList.toggle('oculto');
+     });
+
+    </script>
+</body>
+</html>

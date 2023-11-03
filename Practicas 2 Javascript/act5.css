@@ -1,0 +1,14 @@
+body{
+    background-color: lightblue;
+ 
+}
+.colorFondo {
+    background-color: coral;
+}
+
+#cambiarColor{
+    background-color:white; 
+    color:black; 
+    padding: 10px 20px;
+
+} 

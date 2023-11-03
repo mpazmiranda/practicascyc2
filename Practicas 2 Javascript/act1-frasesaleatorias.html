@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Genere una frase aleatoria</h1>
+    <button onclick = "mostrarFrase ()">Presione aquí</button>
+    <p id="frase"></p>
+    <script>
+    function mostrarFrase () {
+    var frases = ["Hoy es miércoles", "Quiero papas fritas", "Quiero dormir", "Espero que esto funcione"];
+    var fraseAleatoria = Math.floor(Math.random() * frases.length)
+    document.getElementById ("frase").innerHTML = frases[fraseAleatoria];
+}
+</script>
+</body>
+
+</html>
